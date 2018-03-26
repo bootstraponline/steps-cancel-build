@@ -8,7 +8,6 @@ Example of cancelling a build only if the build has failed.
 
 ```
     - git::https://github.com/instructure/steps-cancel-build.git@master:
-        title: Cancel build
         is_always_run: true
         run_if: ".IsBuildFailed"
 ```
