@@ -10,3 +10,6 @@ curl -X POST \
     "skip_notifications": true,
     "abort_with_success": true
 }'
+
+# wait for build to be cancelled
+sleep 60
